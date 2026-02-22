@@ -1,0 +1,12 @@
+@use 'variables'; /*variable içerisine yazdığımız her şey main.scss içerisine dahil edilir.*/
+@use 'utilities';
+@use 'base';
+@use 'header';
+@use 'home';
+@use 'about';
+@use 'footer';
+@use 'projects';
+@use 'contact';
+@use 'mobile';
+/*bunlar main.scss dosyası altında birleştirilecek ve çıktıları css altındaki style.css dosyasına gelicek*/
+/*use öncesinde import yazmıştık komple değiştirmek için importu seçtik ctrl+shift+l yaparak hepsini aynı anda değiştirmiş olduk*/
