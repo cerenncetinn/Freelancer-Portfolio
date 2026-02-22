@@ -9,18 +9,18 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="public/css/main.css">
     <title>John Anderson | Frontend Developer</title>
 </head>
 <body>
-   
+
     <!-- header -->
-     <header id="header_home">
+  <header id="header_home">
         <div class="container">
             <nav class="main-nav">
-                <img src="img/logo.png" alt="" class="main-nav_logo">
+                <img src="public/img/logo.png" alt="" class="main-nav_logo">
                 <ul class="main-nav_items">
-                    <li><a href="index.html" class="active">Home</a></li><!--seçili eleman home un altında çizgi olucak -->
+                    <li><a href="index.html" class="active">Home</a></li>
                    <li><a href="about.html">About</a></li>
                    <li><a href="projects.html">Projects</a></li>
                    <li><a href="contact.html">Contact</a></li>
@@ -28,11 +28,10 @@
                 </ul>
             </nav>
 
-              <div class="header-content"> <!--headerın içerik kısmı olucak -->
+              <div class="header-content"> 
                  <h1>I'm John Anderson
                     <span class="typewrite" data-period="1000"
                      data-type='["Developer","Designer","Freelancer"]'></span>
-                    <!-- data-period: ne kadar sürede işini tamamlicak data-type: yazılacak içeriklerin tanımlanması bu tanımladığımız 3 kelimenin her biri 1 sn aralıkla daktilo efektiyle sayfaya yazılacak   -->
                  </h1>
               <a href="about.html" class="btn-light animate__animated animate__swing my-2">
   View My Profile
@@ -44,7 +43,7 @@
 
 
     <!-- seciton a -->
-    <section id="home__a" class="text-center py-2">
+   <section id="home__a" class="text-center py-2">
        <div class="container">
          <h2 class="section-title">Introduction</h2>
          <div class="border-bottom"></div>
@@ -82,7 +81,7 @@
 
 
     <!-- section b -->
-    <section id="home__b" class="text-center py-2">
+   <section id="home__b" class="text-center py-2">
        <div class="container">
         <h2 class="section-title">Profile</h2>
         <div class="border-bottom"></div>
@@ -131,7 +130,7 @@
 
 
     <!-- section c -->
-    <section id="home__c" class="text-center py-2">
+   <section id="home__c" class="text-center py-2">
         <div class="container">
             <h2 class="section-title">Working Process</h2>
             <div class="border-bottom"></div>
@@ -179,7 +178,7 @@
 
     
     <!-- footer -->
-    <footer id="main-footer">
+   <footer id="main-footer">
         <div class="footer-content container">
          <p>Copyright &copy; 2025. All Rights Reserved.</p>
 
@@ -192,8 +191,8 @@
         </div>
     </footer>
 
-     <script src="js/jquery.min.js"></script>
-     <script src="js/type-writer.js"></script>
+     <script src="public/js/jquery.min.js"></script>
+     <script src="public/js/type-writer.js"></script>
      <!-- bu js kütüphaneleri sayfa üzerinde typewrite classına sahip olan elemneti buluyor ve bu element içerisinde tanımlanan özelliklerin değerleri snaki daktiloda yazı yazar gibi gösteriyor  -->
      
 </body>
